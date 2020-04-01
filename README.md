@@ -15,3 +15,9 @@ output its name in `all-dconf-repos.txt` if so.
 ```sh
 $ ./list-all-dconf-repos.sh
 ```
+
+### `list-all-x11-repos.sh`
+
+`list-all-x11-repos.sh` will read `all-repos.txt`, and for each one, will
+check it out, see whether it has a hole punched for X11 access even though
+it can use Wayland, and output its name in `all-x11-repos.txt` if so.
