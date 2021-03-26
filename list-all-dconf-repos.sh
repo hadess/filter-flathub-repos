@@ -30,5 +30,5 @@ cd "$ORIGDIR"
 rmdir "$TEMP_CHECKOUT_DIR"
 
 for i in $DCONF_REPOS; do
-	echo " * [ ] [$i](https://github.com/$ORG/$i" >> $ALL_DCONF_REPOS_FILE
+	echo " * [ ] [$i](https://github.com/$ORG/$i)" >> $ALL_DCONF_REPOS_FILE
 done
